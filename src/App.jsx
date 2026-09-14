@@ -22,7 +22,7 @@ function App() {
         <Button text="Danger" variant="danger" disabled={true} />
       </div>
 
-      <div>
+      <div className="flex gap-4">
         <Card
           title="ٍStrawberry Matcha"
           description="cold fresh drink"
