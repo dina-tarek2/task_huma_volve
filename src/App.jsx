@@ -4,11 +4,15 @@ import Table from "./components/common/Table";
 import Button from "./components/ui/Button";
 import StrawberryImage from "./assets/images/strawberryMatcha.png";
 import CoConutImage from "./assets/images/coconutMatcha.png";
+import Home from "./pages/Home";
 
 function App() {
   return (
     <>
-      <div className="flex gap-4">
+
+    <Home/>
+
+      {/* <div className="flex gap-4">
         <Button
           text="Primary"
           variant="primary"
@@ -59,7 +63,7 @@ function App() {
           ]}
           striped={false}
         />
-      </div>
+      </div> */}
     </>
   );
 }
